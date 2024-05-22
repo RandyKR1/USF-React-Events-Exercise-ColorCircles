@@ -23,22 +23,6 @@ const ColoredCircles = () => {
         });
     }
 
-    
-//     const changePosition = idx => {
-//         setCircles(circles => {
-//             //using map to make a copy (only want to update copies of objects and elements)
-//             circles.map((circle, i) => ( 
-//             //is this the one circle object we want to update?
-//                 i === idx 
-//                     // yes, update
-//                     ?  {...circle, x: getRandom(), y:getRandom()}
-//                     //no, leave it
-//                     : circle
-//             )) 
-//         }
-//     )
-// }
-
 
     return(
         <div>
